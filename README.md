@@ -1,5 +1,5 @@
 # SNV filters
-Somatypus post-processing pipeline.
+Somatypus post-processing script in R.
 
 <b>1. Homozygous-in-reference filter.</b>
 SNVs called with VAF > 0.9 in reference sample are discarded.
