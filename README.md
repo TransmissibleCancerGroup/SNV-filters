@@ -1,5 +1,5 @@
 # SNV filters
-Somatypus post-processing script in R.
+Somatypus post-processing script (in R), after removing variants with flags 'badReads', 'MQ', 'strandBias', 'SC', 'QD'.
 
 <b>1. Homozygous-in-reference filter.</b>
 SNVs called with VAF > 0.9 in reference sample are discarded.
